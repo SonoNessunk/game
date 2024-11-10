@@ -5,7 +5,7 @@
     "display": "fullscreen",
     "background_color": "#1F1F20",
     "theme_color": "#000",
-    "description": "porva",
+    "description": "",
     "icons": [{
       "src": "TemplateData/icons/unity-logo-dark.png",
       "sizes": "144x144",
