@@ -1,9 +1,9 @@
 const cacheName = "DumbWolf Studios-FirstGame2D-1.0";
 const contentToCache = [
-    "Build/Build.html.loader.js",
-    "Build/Build.html.framework.js",
-    "Build/Build.html.data",
-    "Build/Build.html.wasm",
+    "Build/gam.loader.js",
+    "Build/gam.framework.js",
+    "Build/gam.data",
+    "Build/gam.wasm",
     "TemplateData/style.css"
 
 ];
