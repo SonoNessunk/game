@@ -1,9 +1,9 @@
 {
-    "name": "FirstGame2D",
-    "short_name": "FirstGame2D",
+    "name": "2D Platformer",
+    "short_name": "2D Platformer",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#1F1F20",
+    "background_color": "#FFFFFF",
     "theme_color": "#000",
     "description": "",
     "icons": [{

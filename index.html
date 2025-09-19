@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | FirstGame2D</title>
+    <title>Unity Web Player | 2D Platformer</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,14 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/gam.loader.js";
+      var loaderUrl = buildUrl + "/2D Platformer.loader.js";
       var config = {
-        dataUrl: buildUrl + "/gam.data",
-        frameworkUrl: buildUrl + "/gam.framework.js",
-        codeUrl: buildUrl + "/gam.wasm",
+        arguments: [],
+        dataUrl: buildUrl + "/2D Platformer.data.br",
+        frameworkUrl: buildUrl + "/2D Platformer.framework.js.br",
+        codeUrl: buildUrl + "/2D Platformer.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DumbWolf Studios",
-        productName: "FirstGame2D",
+        companyName: "SonoNessunk",
+        productName: "2D Platformer",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -84,6 +85,8 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
+
+      canvas.style.background = "url('" + buildUrl + "/2D Platformer.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

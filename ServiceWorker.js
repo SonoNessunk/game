@@ -1,9 +1,9 @@
-const cacheName = "DumbWolf Studios-FirstGame2D-1.0";
+const cacheName = "SonoNessunk-2D Platformer-1.0";
 const contentToCache = [
-    "Build/gam.loader.js",
-    "Build/gam.framework.js",
-    "Build/gam.data",
-    "Build/gam.wasm",
+    "Build/2D Platformer.loader.js",
+    "Build/2D Platformer.framework.js.br",
+    "Build/2D Platformer.data.br",
+    "Build/2D Platformer.wasm.br",
     "TemplateData/style.css"
 
 ];
