@@ -1,9 +1,9 @@
 const cacheName = "SonoNessunk-2D Platformer-1.0";
 const contentToCache = [
-    "Build/2D Platformer.loader.js",
-    "Build/2D Platformer.framework.js",
-    "Build/2D Platformer.data",
-    "Build/2D Platformer.wasm",
+    "Build/game.loader.js",
+    "Build/game.framework.js",
+    "Build/game.data",
+    "Build/game.wasm",
     "TemplateData/style.css"
 
 ];
